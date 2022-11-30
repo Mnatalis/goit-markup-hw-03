@@ -8,7 +8,7 @@
 
  .root {
     --primary-text-color: rgba(33, 33, 33, 1);
-        --accent-color: rgba(33, 150, 243, 1);
+    --accent-color: rgba(33, 150, 243, 1);
  }
 
  body {
@@ -26,23 +26,21 @@ a {
 }
  /*  HEADER  */
  /* logo */
-.logo-partone
-{
-    color: rgba(33, 150, 243, 1);
+ .logo {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
+ }
+.logo-partone
+{
+    color: rgba(33, 150, 243, 1); 
 }
 .logo-partsecond 
     {
     color:rgba(33, 33, 33, 1);
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-        line-height: 1.19;
 }
-nav{
+.navigation{
 font-style: Medium;
     font-size: 14px;
     line-height: 1.14;
@@ -56,11 +54,14 @@ font-style: Medium;
 .site-nav:focus {
     color: var(--accent-color);   
 }
-.contact-nav {color: rgba(117, 117, 117, 1)}
-.contact-nav:hover,
-.contact-nav:focus {
+
+.contact {
+    color: rgba(117, 117, 117, 1)}
+.contact:hover,
+.contact:focus {
     color: var(--accent-color);
 }
+
 .current {
    color: rgba(33, 150, 243, 1); 
 }
@@ -112,15 +113,12 @@ font-style: Medium;
     font-style: Bold;
      font-size: 14px;
       line-height: 1.14;
-    font-weight: 700;
 }
 .advantages-text {
     color: rgba(117, 117, 117, 1);
     font-style: Regular;
      font-size: 14px;
-      line-height: 2;
-    font-weight: 400;
-    
+      line-height: 2;  
 }
 /* WHAT WE DO */
 
@@ -129,7 +127,6 @@ font-style: Medium;
     font-style: Bold;
      font-size: 36px;
       line-height: 1.16;
-    font-weight: 700;
 }
 
   /* OUR TEAM  */
@@ -137,31 +134,28 @@ font-style: Medium;
     background-color: rgba(245, 244, 250, 1);
     
 }
-.our-team {
+.team {
+text-align: center;
+}
+.team-caption {
 font-style: 700;
     font-size: 36px;
-    line-height: 1.16;
-    font-weight: 700;
-    text-align: center;
+    line-height: 1.16;   
 }
-.our-team-caption {
-    text-align: center;
+.team-list {
+font-size: 16px;
+line-height: 1.19p;
+}
+.team-list-caption {
     font-style: Medium;
-        font-size: 16px;
-        line-height: 1.19p;
         font-weight: 500;
 }
-.our-team-text {
-    color: rgba(117, 117, 117, 1);
-    text-align: center; 
-    font-size: 16px; 
-    line-height: 1.19p;
-    font-weight: 400;
+.team-list-text {
+    color: rgba(117, 117, 117, 1);  
 }
 /* footer */
 address {
     font-style: normal;
-    font-weight: 400;
 }
 .footer {
     background-color: rgba(47, 48, 58, 1);
@@ -178,51 +172,43 @@ address {
 }
 .logo-partthird {
     color: rgba(255, 255, 255, 1);
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-        line-height: 1.19;
-        font-weight: 700;
     }
 
 /* Page Portfolio */
 
+.list-button{
+font-style: medium;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+}
 .button-project {
  color: var(--primary-text-color);
  background-color: rgba(245, 244, 250, 1);
 font-family: inherit;
-font-style: medium;
- font-size: 16px;
-  line-height: 1.6;
 border: none;
-font-weight: 500;
 }
 .button-project:hover,
 .button-project:focus{
     color: rgba(245, 244, 250, 1);
 background-color: rgba(33, 150, 243, 1);
 }
-.button-project-all{
+.button-project-all {
     color: rgba(245, 244, 250, 1);
         background-color: rgba(33, 150, 243, 1);
         font-family: inherit;
-            font-style: medium;
-            font-size: 16px;
-            line-height: 1.6;
             border: none;
-            font-weight: 500;
 }
 .caption-project {
 font-style: bold;
 font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    font-weight: 700;
 }
 .text-project {
     color: rgba(117, 117, 117, 1);
         font-size: 18px;
         line-height: 1.9;
-        font-weight: 400;
 }
 
 
