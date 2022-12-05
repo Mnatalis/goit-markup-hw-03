@@ -66,6 +66,7 @@ a {
     padding-top: 24;
     padding-bottom: 25;
  }
+
  /* --------------- logo------------ */
  .logo {
     font-family: "Raleway", sans-serif;
@@ -90,6 +91,7 @@ font-style: Medium;
     letter-spacing: 0.02em;
     font-weight: 500;
     display: flex;
+    border-bottom: 1px solid #ECECEC;
     
 }
 .list-site-nav {
@@ -412,7 +414,7 @@ font-style: bold;
 font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
 }
 .text-project {
@@ -424,9 +426,9 @@ font-size: 18px;
 }
 
 .description {
-    border-left: 1px sold #EEEEEE; 
-    border-bottom: 1px sold #EEEEEE;
-    border-right: 1px sold #EEEEEE;
+    border-left: 1px solid rgba(238, 238, 238, 1); 
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    border-right: 1px solid rgba(238, 238, 238, 1);
     padding-left: 24px;
     padding-right: 24px;
 }
