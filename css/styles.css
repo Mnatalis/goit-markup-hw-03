@@ -416,6 +416,7 @@ font-size: 18px;
     letter-spacing: 0.06em;
     padding-top: 20px;
     margin-bottom: 4px;
+    margin-top: 0px;
 }
 .text-project {
     color: rgba(117, 117, 117, 1);
